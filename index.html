@@ -1,79 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Utkarsh Kalra - CV</title>
+    <title>Utkarsh Kalra - AI Scientist</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
-        <h1>Utkarsh Kalra</h1>
-        <p>Data Scientist</p>
-        <p>Email: <a href="mailto:kalra.utkarsh@gmail.com">kalra.utkarsh@gmail.com</a></p>
-        <p>
-            <a href="https://github.com/kalraUtkarsh" target="_blank">GitHub</a> |
-            <a href="https://www.linkedin.com/in/utkarsh-kalra-b74434166/" target="_blank">LinkedIn</a> |
-            <a href="https://scholar.google.com/citations?hl=en&user=HD8WTq4AAAAJ" target="_blank">Google Scholar</a>
+        <h1 class="glow">Utkarsh Kalra</h1>
+        <p class="subtitle">AI Scientist | Researcher | Innovator</p>
+        <p class="contact">
+            <a href="mailto:kalra.utkarsh@gmail.com">📧 Email</a> |
+            <a href="https://github.com/kalraUtkarsh" target="_blank">💻 GitHub</a> |
+            <a href="https://www.linkedin.com/in/utkarsh-kalra-b74434166/" target="_blank">🔗 LinkedIn</a>
         </p>
     </header>
 
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Passionate AI scientist blending deep learning, data science, and automation to create cutting-edge
+            technology solutions.</p>
+    </section>
+
     <section id="skills">
         <h2>Skills</h2>
-        <p><strong>Programming & Tools:</strong> Python, C, C++, Pytorch, SQL, Linux, TensorFlow, AWS, Docker, OpenAI, LangChain, NLP</p>
-        <p><strong>Languages:</strong> English, Hindi, Russian (Intermediate), German (Basic)</p>
+        <div class="skills-grid">
+            <div class="skill-card">Python</div>
+            <div class="skill-card">C++</div>
+            <div class="skill-card">TensorFlow</div>
+            <div class="skill-card">Pytorch</div>
+            <div class="skill-card">Docker</div>
+            <div class="skill-card">OpenAI API</div>
+            <div class="skill-card">NLP</div>
+            <div class="skill-card">AWS</div>
+        </div>
     </section>
 
     <section id="experience">
-        <h2>Technical Experience</h2>
+        <h2>Experience</h2>
         <div class="job">
             <h3>Research Consultant - KAUST</h3>
-            <p>Dec 2023 - Present</p>
+            <p class="date">Dec 2023 - Present</p>
             <ul>
-                <li>Conducted database analysis on 10,000+ molecular data files.</li>
-                <li>Developed a web app for inter-molecular atomic interaction analysis.</li>
-                <li>Worked on ML models for NanoBody-Antigen stability prediction.</li>
+                <li>Developed AI models for NanoBody-Antigen structure stability prediction.</li>
+                <li>Built an advanced bioinformatics data mining platform.</li>
             </ul>
         </div>
         <div class="job">
             <h3>Data Scientist - Agents Inc.</h3>
-            <p>June 2021 - Aug 2023</p>
+            <p class="date">June 2021 - Aug 2023</p>
             <ul>
-                <li>Developed an AI-powered global news dashboard.</li>
-                <li>Created ML models for cybersecurity anomaly detection.</li>
-                <li>Built a server monitoring system using Prometheus and Grafana.</li>
+                <li>Developed AI-powered cybersecurity models using LSTM.</li>
+                <li>Built a real-time analytics platform for global news analysis.</li>
             </ul>
         </div>
     </section>
 
-    <section id="education">
-        <h2>Education</h2>
-        <p><strong>Bachelor’s of Science in Computer Science</strong></p>
-        <p>Innopolis University, Russia (2018 - 2022, Full Scholarship)</p>
-    </section>
-
-    <section id="projects">
-        <h2>Notable Projects</h2>
-        <ul>
-            <li><strong>TatSub (2022)</strong> – A web app adding subtitles to Tatar videos.</li>
-            <li><strong>Image Caption Generator (2021)</strong> – AI-based captioning system.</li>
-            <li><strong>Eye Blink Detection (2021)</strong> – Real-time eye-blink detection using CV.</li>
-        </ul>
-    </section>
-
-    <section id="achievements">
-        <h2>Achievements</h2>
-        <ul>
-            <li>National Tech Hackathon Winner (2022)</li>
-            <li>100% Scholarship & Stipend (2018-2022)</li>
-            <li>IU Diamond Award (2020, 2021, 2022)</li>
-        </ul>
+    <section id="ai-chatbot">
+        <h2>Ask AI</h2>
+        <div id="chat-container">
+            <input type="text" id="user-input" placeholder="Ask me anything..." />
+            <button onclick="askAI()">Send</button>
+            <p id="ai-response"></p>
+        </div>
     </section>
 
     <footer>
-        <p>© 2025 Utkarsh Kalra</p>
+        <p>© 2025 Utkarsh Kalra | AI Themed Portfolio</p>
     </footer>
 
     <script src="script.js"></script>
 </body>
+
 </html>
