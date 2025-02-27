@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    console.log("Futuristic AI CV loaded!");
+    console.log("Professional AI CV loaded!");
 
     // Smooth Scroll Effect
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
